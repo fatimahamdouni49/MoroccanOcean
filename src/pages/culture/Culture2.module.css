@@ -1,0 +1,44 @@
+.imagen {
+    position: relative;
+    width: 100%;       /* ocupa todo el ancho de la columna */
+    height: 400px;     /* altura fija: ajústala a tu gusto */
+    padding: 10px;        /* elimina padding interno */
+}
+
+/* Estilo para las imágenes (miniaturas) */
+.imagen img {
+    width: 100%;        /* escala al ancho del contenedor */
+    height: 100%;       /* escala a la altura fija */
+    object-fit: cover;          /* Recorta preservando el centro y manteniendo proporción */
+    display: inline-block;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+}
+
+/* Zoom suave al pasar el mouse */
+.imagen img:hover {
+    transform: scale(1.05);
+}
+
+
+/* Estilo para las imágenes */
+.problema {
+    text-align: center;
+    padding: 10px;
+}
+/* Estilo para las imágenes (miniaturas) */
+.problema img {
+    width: 100%;        /* escala al ancho del contenedor */
+    height: 100%;       /* escala a la altura fija */
+    object-fit: cover;          /* Recorta preservando el centro y manteniendo proporción */
+    display: inline-block;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+}
+
+/* Zoom suave al pasar el mouse */
+.problema img:hover {
+    transform: scale(1.05);
+}
