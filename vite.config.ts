@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react';
 import path from 'path';
 
 export default defineConfig({
-  // Base path para GitHub Pages (coincide con el nombre del repo)
+  // Ruta base para GitHub Pages
   base: '/MoroccanOcean/',
   plugins: [react()],
   resolve: {
@@ -12,7 +12,7 @@ export default defineConfig({
     },
   },
   build: {
-    // Aumenta el límite de advertencia a 1000 kB
+    // Eleva el límite de aviso de chunks a 1 MB
     chunkSizeWarningLimit: 1000,
   },
 });
