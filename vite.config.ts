@@ -1,10 +1,11 @@
+
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 import path from 'path';
 
 export default defineConfig({
   // Ruta base para GitHub Pages
-  base: '/MoroccanOcean/',
+  base: '',
   plugins: [react()],
   resolve: {
     alias: {
