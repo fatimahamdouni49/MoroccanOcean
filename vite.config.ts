@@ -5,7 +5,7 @@ import path from 'path';
 
 export default defineConfig({
   // Ruta base para GitHub Pages
-  base: '/MoroccanOcean',
+  base: '/MoroccanOcean/',
   plugins: [react()],
   resolve: {
     alias: {
