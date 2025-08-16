@@ -2,14 +2,14 @@
   "name": "moroccanocean",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://fatimahamdouni49.github.io/MoroccanOcean",
+  "homepage": "https://fatimahamdouni49.github.io/MoroccanOcean.git",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "start": "vite",
     "build": "vite build",
     "predeploy": "npm run build",
-    "deploy": "main -d dist",
+    "deploy": "gh-pages -d dist",
     "lint": "eslint .",
     "preview": "vite preview"
   },
