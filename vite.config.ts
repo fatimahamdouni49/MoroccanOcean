@@ -2,9 +2,9 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 import path from 'path';
 
-export default defineConfig(({
+export default defineConfig(({ mode }) => ({
   // En desarrollo usamos '/', en producción usamos el subdirectorio del repo
-  base: '/MoroccanOcean/',
+  base: mode === 'production' ? '/MoroccanOcean/' : '/',
   plugins: [react()],
   resolve: {
     alias: {
